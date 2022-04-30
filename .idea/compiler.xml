@@ -9,8 +9,5 @@
         <module name="business-kit" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="business-kit" target="18" />
-    </bytecodeTargetLevel>
   </component>
 </project>

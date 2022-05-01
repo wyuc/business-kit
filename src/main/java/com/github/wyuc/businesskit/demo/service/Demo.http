@@ -1,1 +1,1 @@
-GET {{host}}/demo
+GET {{host}}/demo?user=wyuc

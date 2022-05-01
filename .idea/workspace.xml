@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f09716f9-2e5f-4f43-b271-1a1ee1bcd038" name="Changes" comment="refactor(all): fix last commit">
-      <change afterPath="$PROJECT_DIR$/http-client.env.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/wyuc/businesskit/demo/service/Demo.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="f09716f9-2e5f-4f43-b271-1a1ee1bcd038" name="Changes" comment="docs(http): add IDEA http file">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/wyuc/businesskit/common/DbDocGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/wyuc/businesskit/demo/service/Demo.http" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/wyuc/businesskit/demo/service/Demo.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/wyuc/businesskit/demo/service/DemoApiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/wyuc/businesskit/demo/service/DemoApiService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +21,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="module-info" />
-        <option value="Class" />
         <option value="HTTP Public Environment File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -74,7 +76,7 @@
       <recent name="C:\Users\wyuc\IdeaProjects\business-kit" />
     </key>
   </component>
-  <component name="RunManager" selected="HTTP Request.Demo | #1">
+  <component name="RunManager" selected="Application.DbDocGenerator">
     <configuration name="BusinessKitApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.github.wyuc.businesskit.BusinessKitApplication" />
       <module name="business-kit" />
@@ -88,12 +90,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DbDocGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.wyuc.businesskit.common.DbDocGenerator" />
+      <module name="business-kit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.wyuc.businesskit.common.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Demo | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/main/java/com/github/wyuc/businesskit/demo/service/Demo.http" requestIdentifier="#1" runType="Run single request">
       <method v="2" />
     </configuration>
+    <configuration name="BusinessKitApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="business-kit" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.github.wyuc.businesskit.BusinessKitApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.wyuc.businesskit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DbDocGenerator" />
         <item itemvalue="HTTP Request.Demo | #1" />
+        <item itemvalue="Spring Boot.BusinessKitApplication" />
         <item itemvalue="Application.BusinessKitApplication" />
       </list>
     </recent_temporary>
@@ -106,7 +136,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1651247808864</updated>
-      <workItem from="1651385768871" duration="744000" />
+      <workItem from="1651385768871" duration="2183000" />
     </task>
     <task id="LOCAL-00001" summary="feat(all): init project&#10;&#10;(cherry picked from commit 5d34d55cbe8c71a8004aa2a2a93c0c1a23a1a628)">
       <created>1651309220741</created>
@@ -122,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651309442693</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="docs(http): add IDEA http file">
+      <created>1651386576827</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1651386576827</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,6 +192,7 @@
     <MESSAGE value="refactor(all): tmp commit" />
     <MESSAGE value="feat(all): init project&#10;&#10;(cherry picked from commit 5d34d55cbe8c71a8004aa2a2a93c0c1a23a1a628)" />
     <MESSAGE value="refactor(all): fix last commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor(all): fix last commit" />
+    <MESSAGE value="docs(http): add IDEA http file" />
+    <option name="LAST_COMMIT_MESSAGE" value="docs(http): add IDEA http file" />
   </component>
 </project>

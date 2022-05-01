@@ -1,6 +1,5 @@
 package com.github.wyuc.businesskit.demo.service;
 
-import cn.hutool.core.lang.Dict;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -13,7 +12,7 @@ public class DemoApiService {
     @GetMapping("/demo")
     public Map<String, String> demo(String user) {
         Map<String, String> result = new HashMap<>(16);
-        result.put("message", "Hello, World!");
+        result.put("message", "Hello, World!" + user);
         return result;
     }
 }

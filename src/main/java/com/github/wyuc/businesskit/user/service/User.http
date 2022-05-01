@@ -1,0 +1,29 @@
+GET {{host}}/api/user/get?userId=1
+
+###
+GET {{host}}/api/user/list
+
+###
+POST {{host}}/api/user/save
+Content-Type: application/json
+
+{
+  "userName": "李四"
+}
+
+###
+PUT {{host}}/api/user/update
+Content-Type: application/json
+
+{
+  "userId": 1,
+  "userName": "王四"
+}
+
+###
+DELETE {{host}}/api/user/delete
+Content-Type: application/json
+
+{
+  "userId": 1
+}

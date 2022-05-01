@@ -4,13 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f09716f9-2e5f-4f43-b271-1a1ee1bcd038" name="Changes" comment="docs(http): add IDEA http file">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/wyuc/businesskit/common/DbDocGenerator.java" afterDir="false" />
+    <list default="true" id="f09716f9-2e5f-4f43-b271-1a1ee1bcd038" name="Changes" comment="feat(dbdoc): generate db doc using screw">
+      <change afterPath="$PROJECT_DIR$/.idea/mybatisx/templates.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/wyuc/businesskit/common/CommonResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/wyuc/businesskit/common/constant/CommonConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/wyuc/businesskit/common/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/wyuc/businesskit/common/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/wyuc/businesskit/common/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/wyuc/businesskit/common/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/wyuc/businesskit/user/service/User.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/wyuc/businesskit/user/service/UserApiService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/wyuc/businesskit/user/service/query/UserDeleteQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/wyuc/businesskit/user/service/query/UserQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/wyuc/businesskit/user/service/query/UserUpdateQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/wyuc/businesskit/user/service/vo/UserVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/wyuc/businesskit/demo/service/Demo.http" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/wyuc/businesskit/demo/service/Demo.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/wyuc/businesskit/demo/service/DemoApiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/wyuc/businesskit/demo/service/DemoApiService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +48,7 @@
   </component>
   <component name="HttpClientSelectedEnvironments">
     <file url="file://$PROJECT_DIR$/src/main/java/com/github/wyuc/businesskit/demo/service/Demo.http" environment="local" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/github/wyuc/businesskit/user/service/User.http" environment="local" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -55,6 +70,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -63,7 +82,8 @@
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
-    "rest.client.default.execution.environment": "local"
+    "rest.client.default.execution.environment": "local",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -76,34 +96,17 @@
       <recent name="C:\Users\wyuc\IdeaProjects\business-kit" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DbDocGenerator">
-    <configuration name="BusinessKitApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.wyuc.businesskit.BusinessKitApplication" />
-      <module name="business-kit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.github.wyuc.businesskit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+  <component name="RunManager" selected="HTTP Request.User | #3">
+    <configuration name="User | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/main/java/com/github/wyuc/businesskit/user/service/User.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
     </configuration>
-    <configuration name="DbDocGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.wyuc.businesskit.common.DbDocGenerator" />
-      <module name="business-kit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.github.wyuc.businesskit.common.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="User | #3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/main/java/com/github/wyuc/businesskit/user/service/User.http" index="3" requestIdentifier="#3" runType="Run single request">
+      <method v="2" />
     </configuration>
-    <configuration name="Demo | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/main/java/com/github/wyuc/businesskit/demo/service/Demo.http" requestIdentifier="#1" runType="Run single request">
+    <configuration name="User | #4" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/main/java/com/github/wyuc/businesskit/user/service/User.http" index="4" requestIdentifier="#4" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="User | #5" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/main/java/com/github/wyuc/businesskit/user/service/User.http" index="5" requestIdentifier="#5" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="BusinessKitApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
@@ -121,10 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DbDocGenerator" />
-        <item itemvalue="HTTP Request.Demo | #1" />
+        <item itemvalue="HTTP Request.User | #3" />
+        <item itemvalue="HTTP Request.User | #5" />
+        <item itemvalue="HTTP Request.User | #4" />
         <item itemvalue="Spring Boot.BusinessKitApplication" />
-        <item itemvalue="Application.BusinessKitApplication" />
+        <item itemvalue="HTTP Request.User | #1" />
       </list>
     </recent_temporary>
   </component>
@@ -136,7 +140,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1651247808864</updated>
-      <workItem from="1651385768871" duration="2183000" />
+      <workItem from="1651385768871" duration="4827000" />
     </task>
     <task id="LOCAL-00001" summary="feat(all): init project&#10;&#10;(cherry picked from commit 5d34d55cbe8c71a8004aa2a2a93c0c1a23a1a628)">
       <created>1651309220741</created>
@@ -159,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651386576827</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat(dbdoc): generate db doc using screw">
+      <created>1651388063683</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1651388063683</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,6 +204,7 @@
     <MESSAGE value="feat(all): init project&#10;&#10;(cherry picked from commit 5d34d55cbe8c71a8004aa2a2a93c0c1a23a1a628)" />
     <MESSAGE value="refactor(all): fix last commit" />
     <MESSAGE value="docs(http): add IDEA http file" />
-    <option name="LAST_COMMIT_MESSAGE" value="docs(http): add IDEA http file" />
+    <MESSAGE value="feat(dbdoc): generate db doc using screw" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(dbdoc): generate db doc using screw" />
   </component>
 </project>
